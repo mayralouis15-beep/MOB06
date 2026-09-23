@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #afff96;
+}
+.card {
+  background: rgb(187, 130, 130);
+  max-width: 430px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #80f7ff;
+}
+input[type="text"], select, button {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 7px;
+}
+label {
+  margin: 6px;
+}
+#saida {
+  margin-top: 20px;
+  padding: 15px;
+  background: #df9534;
+  text-align: left;
+}

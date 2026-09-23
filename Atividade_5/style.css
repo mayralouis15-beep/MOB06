@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #7cb5ee;
+}
+.card {
+  background: rgb(240, 198, 198);
+  max-width: 380px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #e07e7e;
+}
+label {
+  display: block;
+  margin: 15px;
+  font-size: 18px;
+}
+#saida {
+  background: #41b3ff;
+  padding: 12px;
+  border-radius: 8px;
+}

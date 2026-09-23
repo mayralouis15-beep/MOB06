@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 7 - Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>📝 Cadastro</h1>
+
+    <input type="text" id="nome" placeholder="Nome">
+
+    <select id="cidade">
+      <option value="Belo Horizonte">Belo Horizonte</option>
+      <option value="São Paulo">São Paulo</option>
+      <option value="Rio de Janeiro">Rio de Janeiro</option>
+    </select>
+
+    <div class="radios">
+      <label><input type="radio" name="tipo" value="Novo" checked> Novo</label>
+      <label><input type="radio" name="tipo" value="Cliente"> Cliente</label>
+    </div>
+
+    <button onclick="cadastrar()">Cadastrar</button>
+    <p id="saida"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

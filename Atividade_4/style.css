@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #7fbdfa;
+}
+.card {
+  background: rgb(149, 247, 58);
+  max-width: 380px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #000000;
+}
+select {
+  padding: 10px;
+  width: 90%;
+}
+#saida {
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.pix { background: #b6df6c; color: rgb(0, 10, 31); }
+.cartao { background: #b4d5ff; color: rgb(5, 0, 14); }
+.dinheiro { background: #ffd013; color: #351e0f; }

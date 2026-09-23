@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fa58a4;
+  color: #71008d;
+  transition: 0.3s;
+}
+.card {
+  background: rgb(187, 86, 255);
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #552b2b;
+  transition: 0.3s;
+}
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+#saida {
+  padding: 12px;
+  background: #0c0016;
+}
+body.escuro {
+  background: #111827;
+  color: white;
+}
+body.escuro .card {
+  background: #1f2937;
+  color: rgb(73, 243, 21);
+}
+body.escuro #saida {
+  background: #09306e;
+}

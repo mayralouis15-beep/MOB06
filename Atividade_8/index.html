@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 8 - Pedido de Lanche</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🍔 Pedido de Lanche</h1>
+
+    <input type="text" id="nome" placeholder="Seu nome">
+
+    <select id="tamanho">
+      <option value="Pequeno">Pequeno</option>
+      <option value="Médio">Médio</option>
+      <option value="Grande">Grande</option>
+    </select>
+
+    <h3>Forma de pagamento</h3>
+    <label><input type="radio" name="pagamento" value="PIX" checked> PIX</label>
+    <label><input type="radio" name="pagamento" value="Cartão"> Cartão</label>
+    <label><input type="radio" name="pagamento" value="Dinheiro"> Dinheiro</label>
+
+    <h3>Adicionais</h3>
+    <label><input type="checkbox" id="fritas"> 🍟 Fritas</label><br>
+    <label><input type="checkbox" id="refrigerante"> 🥤 Refrigerante</label><br>
+    <label><input type="checkbox" id="sobremesa"> 🍰 Sobremesa</label>
+
+    <button onclick="finalizarPedido()">Finalizar Pedido</button>
+    <p id="saida"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
